@@ -470,6 +470,7 @@ padding: 40px;
 }
 .check-input{
   appearance: none;
+  margin: 0;
 }
 .icon{
   display: inline-block;
@@ -505,10 +506,10 @@ padding: 40px;
 }
 .check-input:checked + .icon{
   background-color: #2196f3;
-  border-color: #2196f3;
   background-image: url(../images/check.svg)
   background-size: contain;
   background-origin: border-box;
+  border-color: #2196f3;
 }
 .info-img-list .item{
   display: flex;
