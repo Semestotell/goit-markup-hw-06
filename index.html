@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
@@ -49,9 +50,11 @@
     <main>
       <section class="hero">
         <div class="container">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
-        <div class="backdrop is-hidden" data-modal>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
+        </div>
+      </section>
+       <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <form class="form">
               <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
@@ -94,8 +97,6 @@
               </svg>
           </div>
         </div>
-        </div>
-      </section>
       <section class="section-info">
         <div class="container">
         <h2 class="visually-hiden">information</h2>
